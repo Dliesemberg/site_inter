@@ -54,7 +54,7 @@ nav a img {
     max-height: 50px;
 }
 
-/* Dropdown */
+
 #menu li {
     position: relative;
 }
@@ -99,7 +99,7 @@ nav a img {
     display: block;
 }
 
-/* Header */
+
 header {
     position: relative;
     background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Torcida_do_inter_antes_do_jogo_pela_copa_libertadores_da_America_fazendo_a_festa_em_torno_do_estadio_beira_rio_em_porto_alegre_02.jpg/1200px-Torcida_do_inter_antes_do_jogo_pela_copa_libertadores_da_America_fazendo_a_festa_em_torno_do_estadio_beira_rio_em_porto_alegre_02.jpg') 
@@ -114,21 +114,21 @@ header {
     padding-top: 60px;
 }
 
-/* Título do Header */
+
 header h1 {
     font-size: 48px;
     margin-bottom: 50px;
     text-align: center;
 }
 
-/* Cards de Jogos */
+
 .jogos {
     display: flex;
     gap: 30px;
     margin-top: 0;
     z-index: 10;
     position: absolute;
-    bottom: 50px; /* posiciona no centro vertical aproximado do header */
+    bottom: 50px; 
 }
 
 .card-jogo {
@@ -138,7 +138,7 @@ header h1 {
     padding: 20px;
     text-align: center;
     width: 220px;
-    height: 300px; /* cards mais altos */
+    height: 300px; 
     box-shadow: 0 8px 25px rgba(0,0,0,0.5);
     border-collapse: collapse;
     display: flex;
@@ -175,7 +175,7 @@ header h1 {
     background: #ff0000;
 }
 
-/* Galeria de imagens abaixo do header */
+
 .galeria {
     width: 70%;
     margin: 40px auto;
@@ -232,7 +232,7 @@ header h1 {
     }
 }
 
-/* Container da seção últimos jogos */
+
 .classe-ultimos-jogos {
     width: 80%;
     margin: 50px auto;
@@ -245,7 +245,7 @@ header h1 {
     align-items: flex-start;
 }
 
-/* Card Tabela */
+
 .card-tabela {
     background: #fff;
     border-radius: 15px;
@@ -305,7 +305,7 @@ header h1 {
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.5);
 }
-/* Container de cada carrossel com título */
+
 .carrossel-container {
     margin: 50px auto;
     width: 80%;
@@ -319,43 +319,43 @@ header h1 {
     font-weight: bold;
 }
 
-/* Carrossel CSS */
+
 .carrossel-css {
     width: 100%;
     position: relative;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-    height: 300px; /* altura fixa do carrossel */
+    height: 300px; 
     display: flex;
     align-items: center;
 }
 
-/* Esconde os inputs */
+
 .carrossel-css input {
     display: none;
 }
 
-/* Slides */
+
 .slides {
     display: flex;
-    width: 300%; /* 100% para cada slide */
+    width: 300%; 
     transition: transform 0.5s ease-in-out;
     align-items: center;
 }
 
-/* Cada slide */
+
 .slide {
     width: 100%;
     flex-shrink: 0;
     display: flex;
-    justify-content: center; /* centraliza horizontalmente */
+    justify-content: center; 
     align-items: center;
 }
 
-/* Imagens dentro do slide */
+
 .slide img {
-    width: 20%; /* tamanho da imagem */
+    width: 20%; 
     height: auto;
     border-radius: 15px;
     object-fit: contain;
@@ -364,10 +364,10 @@ header h1 {
 }
 
 .slide img:hover {
-    transform: scale(1.05); /* efeito de zoom ao passar o mouse */
+    transform: scale(1.05); 
 }
 
-/* Navegação (bolinhas) */
+
 .navegacao {
     position: absolute;
     bottom: 10px;
@@ -391,7 +391,7 @@ header h1 {
     background: rgba(255,255,255,0.9);
 }
 
-/* Transformação dos slides conforme input marcado */
+
 #c1-slide1:checked ~ .slides,
 #c2-slide1:checked ~ .slides,
 #c3-slide1:checked ~ .slides {
@@ -410,7 +410,7 @@ header h1 {
     transform: translateX(-200%);
 }
 
-/* Cor da bolinha ativa */
+
 #c1-slide1:checked ~ .navegacao label[for="c1-slide1"],
 #c1-slide2:checked ~ .navegacao label[for="c1-slide2"],
 #c1-slide3:checked ~ .navegacao label[for="c1-slide3"],
@@ -447,7 +447,7 @@ header h1 {
     text-align: center;
     max-width: 900px;
     padding: 20px;
-    background: rgba(0,0,0,0.4); /* sombra leve para destacar o texto */
+    background: rgba(0,0,0,0.4); 
     border-radius: 15px;
 }
 
